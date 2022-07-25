@@ -14,7 +14,7 @@ library(neuralnet)
 set.seed(42)
 ```
 
-### 2. Initial Cleaning
+### Initial Cleaning
 
 This is the inital data cleaning step. I made the decision to simply remove all rows with NA values. The reason for this is because of a lot of factors that cannot be estimated that differ from country to country. Each country has a plethora of institutions that may make neighboring countries vastly different in some of the predictors used here. An example of this is North and South Korea, whose respective governments are so wildly different, which would undoubtedly cause differences in things measured in this dataset such as education and vaccination rates. Because of this, I don't feel comfortable replacing NA values with the median, for example.
 
@@ -36,7 +36,28 @@ test <- life[-split,]
 
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### Modeling
+#### Naive Model
+
+I first made a completely naive model to estimate life expectancy for each country. I fully expect this model to be a poor estimator of life expectancy, however it is still useful as a baseline to see if the other models are an improvement on using no data to make our prediction. For the naive model, I used the sample mean of the training data as the predicted value for the test data.
+
+```{r}
+samp_mean <- mean(train$Life.expectancy)
+naive.mspe <- mean((samp_mean-test$Life.expectancy)^2)
+```
+#### Random Forest
+
+#### Gradient Boost
+
+#### Ordinary Least Squares
+
+#### Backward Selection
+
+#### Ridge Regression
+
+### Comparison
+
+To compare each model, I opted to measure the mean squared prediction error (MSPE) for each model. This is calculated by using the trained models to predict the life expectancy for each unseen data point in the test data, squaring the difference between this prediction and the actual life expectancy, and averaging this across all data in the test set.
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
