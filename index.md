@@ -13,8 +13,6 @@
 
 [COVID Dashboard](/covid.md)
 <img src="images/covid.png?raw=true"/>
-- [Project 2 Title](http://example.com/)
-
 
 ---
 
