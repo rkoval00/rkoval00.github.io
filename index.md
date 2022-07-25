@@ -5,7 +5,7 @@
 ### Machine Learning
 
 [Predicting Life Expectancy](/life_expectancy.md)
-<img src="images/world.jpeg?raw=true"/>
+<img src="images/world.jpg?raw=true"/>
 
 ---
 
