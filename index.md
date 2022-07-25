@@ -19,7 +19,7 @@
 
 ### Visualizations
 
-- [Metro Area COVID Dashboard]([http://example.com/](https://public.tableau.com/app/profile/reed.koval/viz/Covid_16503386987270/Dashboard1))
+- [Metro Area COVID Dashboard](https://public.tableau.com/app/profile/reed.koval/viz/Covid_16503386987270/Dashboard1)
 - [Project 2 Title](http://example.com/)
 
 
