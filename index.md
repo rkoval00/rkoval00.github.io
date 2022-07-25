@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Machine Learning
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,13 +17,11 @@
 
 ---
 
-### Category Name 2
+### Visualizations
 
-- [Project 1 Title](http://example.com/)
+- [Metro Area COVID Dashboard]([http://example.com/](https://public.tableau.com/app/profile/reed.koval/viz/Covid_16503386987270/Dashboard1))
 - [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+
 
 ---
 
