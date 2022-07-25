@@ -9,4 +9,5 @@ Link to the dashboard: [COVID Dashboard](https://public.tableau.com/app/profile/
 ### Data Sources
 
 [COVID Data](https://apidocs.covidactnow.org/)
-[Population Data](https://www.nber.org/research/data/census-core-based-statistical-area-cbsa-federal-information-processing-series-fips-county-crosswalk)
+
+[CBSA Data](https://www.nber.org/research/data/census-core-based-statistical-area-cbsa-federal-information-processing-series-fips-county-crosswalk)
