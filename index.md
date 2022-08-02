@@ -15,7 +15,7 @@
 <img src="images/covid.png?raw=true"/>
 
 [Iowa Liquor Sales](/iowa.md)
-<img src="images/covid.png?raw=true"/>
+<img src="images/iowaflag.png?raw=true"/>
 
 ---
 
