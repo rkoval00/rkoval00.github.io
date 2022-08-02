@@ -100,9 +100,19 @@ ridge.mpse <- mean((ridge.pred-y.new)^2)
 ```
 ### Comparison
 
-To compare each model, I opted to measure the mean squared prediction error (MSPE) for each model. This is calculated by using the trained models to predict the life expectancy for each unseen data point in the test data, squaring the difference between this prediction and the actual life expectancy, and averaging this across all data in the test set.
+To compare each model, I opted to measure the mean squared prediction error (MSPE) for each model. This is calculated by using the trained models to predict the life expectancy for each unseen data point in the test data, squaring the difference between this prediction and the actual life expectancy, and averaging this across all data in the test set. Below is a table containing the MSPE for each of the above models:
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+The main takeaway here is the fact that the random forest model performs the best by far, almost halving the error of the next best model.
+
+### Conclusion
+
+Based on the random forest model's superiority, I made a variable importance plot to determine which factors contributed to predicting life expectancy. Below is the variable importance plot:
+
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+What this illustrates is that four predictors have by far the greatest effect on life expectancy: income composition of resources (a measure of income inequality), HIV/AIDS rates, adult mortality, and years of schooling. In other words, countries' efforts to increase their population's life expectancy when they focus on decreasing income inequality, decreasing the prevalence of HIV/AIDS, lowering adult mortality, and encouraging more education. This insight is important, as it shows how countries with lower life expectancy can close the gap between themselves and richer countries while also working with limited time and resources.
 
 ### 4. Data Source
 
