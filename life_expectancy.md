@@ -114,6 +114,6 @@ Based on the random forest model's superiority, I made a variable importance plo
 
 What this illustrates is that four predictors have by far the greatest effect on life expectancy: income composition of resources (a measure of income inequality), HIV/AIDS rates, adult mortality, and years of schooling. In other words, countries' efforts to increase their population's life expectancy when they focus on decreasing income inequality, decreasing the prevalence of HIV/AIDS, lowering adult mortality, and encouraging more education. This insight is important, as it shows how countries with lower life expectancy can close the gap between themselves and richer countries while also working with limited time and resources.
 
-### 4. Data Source
+### Data Source
 
 [Life Expectancy Data](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who).
